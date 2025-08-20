@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Martin's Web</title>
+    <link rel="icon" type="imagess.png" href="images/imagess.png">
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><h1>JAY MARTIN'S</h1> <h1 class="mm">WEB</h1></div>
+    <button class="menu-toggle">☰</button>
+    <ul class="nav-links">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Blog">Blog</a></li>
+      <li><a href="#Contact">Contact</a></li>
+      
+    </ul>
+  </nav>
+ 
+  <article class="Home" id="Home">
+    <p> <h2>Welcome to the Unseen Side of the Web</h2></p><br>
+
+    <h4><p><img src="https://img.icons8.com/color/48/idea.png">Where Curiosity Meets Creation.</p><br>
+      
+
+
+
+    <p>This isn't just a homepage—it's a doorway. Behind each click lies something crafted not just with code, but with intent.
+       Here, stories are told through pixels, ideas take digital form, and the ordinary becomes extraordinary.</p><br>
+
+    <p> Whether you're here to learn, explore, or simply be inspired, you're exactly where you need to be.</p><br>
+
+        <p>Here at <em> <a href="#">JAY MARTINS WEB</a></em> we take your ideas and innovation,turning them into real life project for whatever purpose you which them to become.</p><br>
+
+
+   <p>This is not just a site. It's a signal.
+     You're part of something rare now.</p><br>
+
+      Let’s begin.</h4><br>
+
+  </article>
+  <hr>
+
+  <section class="Services" id="Services">
+     <h2>OUR SERVICES</h2><br>
+   <h3> Web Development</h3><br>
+   <h4><p> Web development is the backbone of the internet, transforming designs into fully functional websites and applications. It involves writing code in languages like HTML, CSS, JavaScript, and using frameworks to build responsive, dynamic, and interactive experiences.</p></h4><br>
+
+   <h3>Web Design</h3><br>
+   <h4><p>Web design is the art of creating visually appealing and functional websites.</p></h4>
+
+  </section>
+  <hr>  
+
+  <section class="applications">
+    <h2>Application Form</h2><br>
+    
+     <header class="applications-form-header">
+       <h3>JAY MARTIN'S WEB</h3><br>
+       <p>Want to apply and learn?</p>
+
+     </header>
+
+     <form action="https://formsubmit.co/charlesstones075@gmail.com" method="post" class="application-form">
+           <div class="from-row">
+            <label for="full-name">Name</label>
+            <input id="full-name" name="full-name" type="text">
+            <label for="phonenumber">Phonenumber</label>
+            <input id="phonenumber" name="phonenumber" type="number">
+            <label for="email">Email</label>
+            <input id="email"
+                   name="email"
+                   type="email"
+                   placeholder="joe@example.com"><br>
+
+          <fieldset class='legacy-form-row'>
+             <legend>Type of Services</legend>
+             <input id='service-type-1'
+                    name='service-type'
+                    type='radio'
+                    value='web development' />
+             <label for='talk-type-1' class='radio-label'>Web Development</label>
+             <input id='service-type-2'
+                    name='service-type'
+                    type='radio'
+                    value='web design'
+                    checked />
+             <label for='talk-type-2' class='radio-label'>Web Design</label>
+          </fieldset>
+      </div>
+      <div class='form-row'>
+          <label for='abstract'>Tell Us More</label>
+          <textarea id='abstract' name='abstract'></textarea>
+      <div class='instructions'> Tell us about your interest</div>
+      </div>
+      <div class='form-row'>
+         <label class='checkbox-label' for='available'>
+         <input id='available'
+         name='available'
+         type='checkbox'
+         value='is-available'/>
+      <span>I’m available </span>
+        </label>
+      </div><br>
+      
+      <div class="form-row">
+        <button>Submit</button>
+      </div>
+
+
+     </form>
+     
+
+  </section>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+
+    })
+  </script>
+
+   <p class="love">@copyright <em>JAYMARTIN'S WEB</em></p>
+
+ 
+
+
+
+
+</body>
+</html>
